@@ -1,0 +1,12 @@
+[package]
+name = "hello_ggez"
+version = "0.1.0"
+authors = ["desmonty <desmonty4620@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+cgmath = { version = "0.17", features = ["mint"]}
+ggez = "0.5.0-rc.0"
+quote = "0.6"
+rand = "0.7"
+syn = "0.15"
